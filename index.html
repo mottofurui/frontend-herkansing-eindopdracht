@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eindproject</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/915daa22f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="bottom-border">
+        <section>
+            <a href="#"><i class="fa-solid fa-ghost fa-2xl"></i></a>
+        </section>
+        <section class="nav-links">
+            <a href="#highligted">Uitgelichte Producten</a>
+            <a href="#">Alle producten</a>
+            <a href="#">Partners</a>
+            <a href="/thanks.html" target="_blank">Contact</a>
+            <a href="#order" class="link-border">Bestel</a>
+        </section>
+    </nav>
+    <header class="header-content">
+        <div class="header-container">
+            <h1>Welkom bij Tinytitan games</h1>
+            <p>
+                Wij zijn een gamegroothandel met als doel om ons favoriete genre: indiegames, meer toegankelijk te maken. <br>
+                We bieden de grote indieklassiekers aan, maar partneren ons ook met kleinere indiebedrijven en zelfs individuele
+                developers. zo bieden we onze klanten het grootste en beste aanbod mogelijk, focussen we ons echt op de Tiny Titans
+                van de gamingindustrie.
+            </p>
+            <a href="#" class="link-border">Lees meer</a>
+            <a href="#highligted" class="link-border">Onze producten</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2 id="highligted">Uitgelichte Producten</h2>
+            <section class="games">
+                <section class="game-border">
+                    <section>
+                        <img class="img-border" src="/images/stardew-valley.png" alt="Stardew Valley">
+                    </section>
+                    <section class="game-content">
+                        <h3>Stardew Valley</h3>
+                        <section>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </section>
+                        <p>
+                           Rustgevend en fijn, dit is de ideale game voor die pauze momenten. En waarna je er weer tegenaan kan.  
+                        </p>
+                        <a href="#order" class="link-border">Bestel Stardew Valley</a>
+                    </section>
+                </section>
+                <section class="game-border">
+                    <section>
+                        <img class="img-border" src="/images/celeste.jpg" alt="Celeste">
+                    </section>
+                    <section class="game-content">
+                        <h3>Celeste</h3>
+                        <section>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </section>
+                        <p>
+                            Celeste lijkt simpel, en dat is het ook. Maar de elegantie komt naar voren in alles behalve het platformen.
+                        </p>
+                        <a href="#order" class="link-border">Bestel Celeste</a>
+                    </section>
+                </section>
+                <section class="game-border">
+                    <section>
+                        <img class="img-border" src="/images/titanfall.jpg" alt="Titanfall">
+                    </section>
+                    <section class="game-content">
+                        <h3>Titanfall 2</h3>
+                        <section>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </section>
+                        <p>
+                            Gamen zoals gamen bedoelt is, van de vele in de wereld is dit wel een van de beste movement shooters ooit gemaakt. 
+                        </p>
+                        <a href="#order" class="link-border">Bestel Titanfall 2</a>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <div class="center-container">
+            <h2 id="order">Bestel een game</h2>
+            <div class="form-container">
+                <form action="/thanks.html" method="get">
+                    <div class="column">
+                        <section class="together">
+                            <div class="input">
+                                <label for="firstname">Voornaam*</label>
+                                <input type="text" id="firstname" name="firstname" placeholder="Voer je voornaam in.." required>
+                            </div>
+                            <div class="input">
+                                <label for="lastname">Achternaam*</label>
+                                <input type="text" id="lastname" name="lastname" placeholder="Voer je achternaam in.." required>
+                            </div>
+                        </section>
+                        <div class="input">
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" id="email" placeholder="Voer e-mailadres in.." required>
+                        </div>
+                        <section class="together">
+                            <div class="input">
+                                <label for="city">Woonplaats*</label>
+                                <input type="text" name="city" id="city" placeholder="Voer Woonplaats in.." required>
+                            </div>
+                            <div class="input">
+                                <label for="birthdate">Geboortedatum*</label>
+                                <input type="date" name="birthdate" id="birthdate" required>
+                            </div>
+                        </section>
+                        <div class="input">
+                            <label for="send-to">Kies een game</label>
+                            <select name="send-to" id="send-to" required>
+                                <option value="">Kies game..</option>
+                                <option value="">Celeste</option>
+                                <option value="">Titanfall 2</option>
+                                <option value="">Stardew Valley</option>
+                                <option value="">Hollow Knight</option>
+                            </select>
+                        </div>
+                    </div>
+                        <div class="question">
+                            <div>
+                                <label for="question">Heeft u nog een vraag?</label>
+                            </div>
+                            <div>
+                                <textarea name="question" id = "question" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <div class="bottom-container">
+                            <label for="register">Inschrijven voor onze nieuwsbrief?</label>
+                            <div class="radio">
+                                <div>
+                                    <input type="radio" name="yes" id="yes">
+                                    <label for="yes">Ja</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="no" id="no">
+                                    <label for="no">Nee</label>
+                                </div>
+                            </div>
+                            <div class="checkbox-container">
+                                <input type="checkbox" name="agree" id="agree" required>
+                                <label for="agree">Ik ga akkoord met de algemene voorwaarden</label>
+                            </div>
+                            <div class="bottom-container">
+                                <button type="submit">Verstuur e-mail</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section>
+            <a href="#"><i class="fa-solid fa-ghost fa-2xl"></i></a>
+            <h4>Copyright 2023 TinyTitan Games</h4>
+            <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-snapchat fa-2xl"></i></a>
+        </section>
+        <section class="footer-section">
+            <a href="#" class="footer-link">Privacyverklaring</a>
+            <a href="#" class="footer-link">Algemene voorwaarden</a>
+            <a href="#" class="footer-link">Cookiebeleid</a>
+            <a href="#" class="footer-link">Contact</a>
+        </section>
+    </footer>
+</body>
+</html>
